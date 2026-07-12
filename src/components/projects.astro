@@ -1,9 +1,9 @@
 ---
 import { Image } from "astro:assets";
-import svgl from "../../public/svgl.png";
-import stockin from "../../public/stockin.png";
-import moviesfordevs from "../../public/moviesfordevs.png";
-import velez from "../../public/velez.png";
+
+import netflixScrapper from "../../public/netflixscrapper.png";
+import websiteQA from "../../public/websiteqa.jpeg";
+import apikeyInspector from "../../public/apikeyinspector.png";
 
 interface Project {
   title: string;
@@ -15,25 +15,25 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Netflix Scrapper,
-    image: netflix-scrapper as ImageMetadata,
+    title: "netflix-scrapper",
+    image: netflixScrapper as ImageMetadata,
     link: "https://github.com/AliHaSSan-13/Netflix-scrapper",
     preview: "https://pypi.org/project/netflix-scrapper/",
-    status: "Deployed",
+    status: "Published on PyPI",
   },
   {
-    title: "Website-Q-A",
-    image: https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.seoptimer.com%2Fblog%2Fwebsite-qa%2F&ved=0CBYQjRxqGAoTCODQoOf6zJUDFQAAAAAdAAAAABCAAQ&opi=89978449,
+    title: "Website Q&A Agent",
+    image: websiteQA as ImageMetadata,
     link: "https://github.com/AliHaSSan-13/Website-Q-A",
     preview: "https://github.com/AliHaSSan-13/Website-Q-A",
-    status: "On Development",
+    status: "In Development",
   },
   {
-    title: "API key inspector",
-    image: api-key-inspector as ImageMetadata,
+    title: "apikey-inspector",
+    image: apikeyInspector as ImageMetadata,
     link: "https://github.com/AliHaSSan-13/apikey-inspector",
     preview: "https://pypi.org/project/apikey-inspector/",
-    status: "Deployed",
+    status: "Published on PyPI",
   },
 ];
 ---
