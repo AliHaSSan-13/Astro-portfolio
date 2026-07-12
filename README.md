@@ -6,7 +6,7 @@
 
 ---
 
-[Demo](https://oscarhernandez.vercel.app/) | [Astro Themes](https://astro.build/themes/details/dark-minimal/) | [ReactBits Showcase](https://www.reactbits.dev/showcase) 
+[Demo](https://ali-hassan.vercel.app/) | [Astro Themes](https://astro.build/themes/details/dark-minimal/) | [ReactBits Showcase](https://www.reactbits.dev/showcase) 
 
 ## **Features**
 - 🚀 **Blazing fast performance** powered by Astro
