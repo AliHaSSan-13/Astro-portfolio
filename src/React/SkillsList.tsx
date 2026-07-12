@@ -37,21 +37,22 @@ const SkillsList = () => {
   const [openItem, setOpenItem] = useState<string | null>(null);
 
   const skills = {
-    "Web Development": [
-      "Single Page Applications (SPAs)",
-      "Landing pages and business websites",
-      "Portfolio websites",
-    ],
-    "Mobile Development": [
-      "Mobile-friendly web apps",
-      "React Native mobile apps",
-    ],
-    "UI/UX Design & Prototyping": [
-      "UI design with Figma & Canva",
-      "UX research & improvements",
-      "Prototyping for websites & mobile apps",
-    ],
-  };
+  "Backend & APIs": [
+    "FastAPI & Django REST APIs",
+    "Async, event-driven architecture",
+    "Microservices & system design",
+  ],
+  "Databases & Infra": [
+    "PostgreSQL, Redis, Qdrant",
+    "Docker & containerized deployments",
+    "Query optimization & caching strategy",
+  ],
+  "AI & Automation": [
+    "LLM integration (OpenAI, Gemini, Ollama)",
+    "Structured data extraction pipelines",
+    "Workflow automation with n8n & Playwright",
+  ],
+};
 
   const toggleItem = (item: string) => {
     setOpenItem(openItem === item ? null : item);
